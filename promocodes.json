@@ -1,0 +1,21 @@
+[{
+  "_id": "5f77173b76b9921886a8315a",
+  "code": "FIAT50",
+  "discount": 50,
+  "type": "PERCENTAGE",
+  "vehicles": ["8374f746-5670-472a-9bc3-a1af886d749c"]
+},
+{
+  "_id": "5f77173976b9921886a83159",
+  "code": "MERCEDES100",
+  "discount": 100,
+  "type": "CREDIT",
+  "vehicles": ["06576ae0-3bd4-487b-bd4e-c4e246b13d04"]
+},
+{
+  "_id": "5f77173976b9921886a83159",
+  "code": "ALL10",
+  "discount": 10,
+  "type": "PERCENTAGE",
+  "vehicles": []
+}]
