@@ -48,7 +48,7 @@ En la vista del detalle Tendremos un desplegable como muetra el diseño con el p
 - `Código promocional`, en caso de haber introducido un código el descuento total que aplica ese código
 - `Precio total`, el precio total resultante con descuentos incluidos.
 
-El código promocional puede venir en la url como un query param `?CODE="ALL10"` o podrá introducirse en el input del promocode. Si se introduce en el input tendremos que sincronizarlo con la url añadiendo ese parámetro query.
+El código promocional puede venir en la url como un query param `?CODE=ALL10` o podrá introducirse en el input del promocode. Si se introduce en el input tendremos que sincronizarlo con la url añadiendo ese parámetro query.
 
 Si tenemos un código aplicado correcto debe desaparecer el componente del input de añadir código y en su lugar aparecerá un componente indicando el código y el descuento total.
 
@@ -67,4 +67,4 @@ Se tendrá en cuenta:
 - Crear una API en NODE + EXPRESSJS que devuelva los datos del fichero y haga uso de ella el front.
 
 ### EXTRA 3 - SOBRESALIENTE:
-- Una vez teniendo el EXTRA 1, hacer que se conecte a una base de datos en MONGODB haciendo uso de MONGOOSE y ese sea el origen de datos de los vehículos, es decir, la base da datos deberá contener el listado de los vehículos, la api accederá a ellos y los devolverá al front.
+- Una vez teniendo el EXTRA 2, hacer que se conecte a una base de datos en MONGODB haciendo uso de MONGOOSE y ese sea el origen de datos de los vehículos, es decir, la base da datos deberá contener el listado de los vehículos, la api accederá a ellos y los devolverá al front.
